@@ -1211,6 +1211,10 @@ public class ClientMessage {
      * cliprgs040 - Getting property...
      */
     public static final String PROGRESS_MSG_BA_UNIT_GETTING = PROGRESSMSG + "040";
+    /**
+     * cliprgs041 - Searching parcels...
+     */
+    public static final String PROGRESS_MSG_SEARCH_PARCELS = PROGRESSMSG + "041";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
