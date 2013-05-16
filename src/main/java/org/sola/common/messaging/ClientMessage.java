@@ -421,6 +421,10 @@ public class ClientMessage {
      * clichck100 - Area should have a value.
      */
     public static final String CHECK_NOTNULL_AREA = CHECK + "100";
+    /**
+     * clichck101 - Registration number should have a value.
+     */
+    public static final String CHECK_NOTNULL_REGNUMBER = CHECK + "101";
     
     // Application messages
     /**
@@ -1221,6 +1225,10 @@ public class ClientMessage {
      * cliprgs040 - Getting property...
      */
     public static final String PROGRESS_MSG_BA_UNIT_GETTING = PROGRESSMSG + "040";
+    /**
+     * cliprgs041 - Searching parcels...
+     */
+    public static final String PROGRESS_MSG_SEARCH_PARCELS = PROGRESSMSG + "041";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
