@@ -420,6 +420,10 @@ public class ClientMessage {
      * clichck100 - Area should have a value.
      */
     public static final String CHECK_NOTNULL_AREA = CHECK + "100";
+    /**
+     * clichck101 - Registration number should have a value.
+     */
+    public static final String CHECK_NOTNULL_REGNUMBER = CHECK + "101";
     
     // Application messages
     /**
