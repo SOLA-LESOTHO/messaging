@@ -52,6 +52,7 @@ public class ClientMessage {
     private static final String BR = MSG_PREFIX + "br";
     private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
     private static final String BULK_OPERATIONS = MSG_PREFIX + "_bulk_operations_";
+    private static final String DISPUTE = MSG_PREFIX + "dispute";
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * clitest001 - Unit Test Message
@@ -773,6 +774,15 @@ public class ClientMessage {
      * clibaunit026 - Enter lease rejection reason
      */
     public static final String BAUNIT_LEASE_REJECTION_REASON_TITLE = BAUNIT + "026";
+    
+     /**
+     * clidispute001 - Property has been saved successfully.
+     */
+    public static final String DISPUTE_SAVED = DISPUTE + "001";
+    /**
+     * clidispute002 - Failed to save property.
+     */
+    public static final String DISPUTE_SAVE_FAILED = DISPUTE + "002";
     
     // General error messages
     /**
