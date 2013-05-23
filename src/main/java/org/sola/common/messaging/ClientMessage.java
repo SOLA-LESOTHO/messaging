@@ -62,6 +62,11 @@ public class ClientMessage {
     // </editor-fold>
     // General Messages
     /**
+     * clignrl026 - Open a blank application form
+     */
+    public static final String PROGRESS_MSG_OPEN_APPFORM = GENERAL + "026";
+            
+    /**
      * clignrl001 - An unexpected error has occurred. Error details: {0}
      */
     public static final String GENERAL_UNEXPECTED = GENERAL + "001";
