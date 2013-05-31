@@ -802,6 +802,10 @@ public class ClientMessage {
      */
     public static final String DISPUTE_COMMENTS_SAVE_FAILED = DISPUTE + "004";
     
+    /**
+     * clidispute005 - Failed to save property.
+     */
+    public static final String DISPUTE_PARTY_SAVE_ = DISPUTE + "005";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
