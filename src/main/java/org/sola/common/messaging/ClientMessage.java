@@ -507,7 +507,7 @@ public class ClientMessage {
     /**
      * cliapp018 - There are no property objects on the list
      */
-    public static final String APPLICATION_PROPERTY_LIST_EMPTY = APPLICATION + "018";
+    public static final String APPLICATION_PARCELS_LIST_EMPTY = APPLICATION + "018";
     /**
      * cliapp019 - You are about to take action \"{0}\" against application, no
      * further changes will be possible. Are you sure?
