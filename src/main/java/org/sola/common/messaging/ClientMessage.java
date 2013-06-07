@@ -61,10 +61,6 @@ public class ClientMessage {
     public static final String TEST001 = TEST + "001";
     // </editor-fold>
     // General Messages
-    /**
-     * clignrl026 - Open a blank application form
-     */
-    public static final String PROGRESS_MSG_OPEN_APPFORM = GENERAL + "026";
             
     /**
      * clignrl001 - An unexpected error has occurred. Error details: {0}
@@ -431,6 +427,10 @@ public class ClientMessage {
      * clichck101 - Registration number should have a value.
      */
     public static final String CHECK_NOTNULL_REGNUMBER = CHECK + "101";
+    /**
+     * clichck102 - Select file.
+     */
+    public static final String CHECK_NOTNULL_FILE = CHECK + "102";
     
     // Application messages
     /**
@@ -1247,6 +1247,11 @@ public class ClientMessage {
      * cliprgs041 - Searching parcels...
      */
     public static final String PROGRESS_MSG_SEARCH_PARCELS = PROGRESSMSG + "041";
+    
+    /**
+     * cliprgs042 - Opening blank application form...
+     */
+    public static final String PROGRESS_MSG_OPEN_APPFORM = PROGRESSMSG + "042";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
