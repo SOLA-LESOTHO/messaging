@@ -431,6 +431,15 @@ public class ClientMessage {
      * clichck102 - Select file.
      */
     public static final String CHECK_NOTNULL_FILE = CHECK + "102";
+    /**
+     * clichck200 - Sublease must expire before the lease expires on {0}.
+     */
+    public static final String CHECK_SUBLEASE_EXPIRY = CHECK + "200";
+        /**
+     * clichck201 - Subplot is not within the area of the lease.
+     */
+    public static final String CHECK_SUBLEASE_PLOT = CHECK + "201";
+    
     
     // Application messages
     /**
