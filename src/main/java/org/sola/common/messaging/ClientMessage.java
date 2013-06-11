@@ -435,10 +435,14 @@ public class ClientMessage {
      * clichck200 - Sublease must expire before the lease expires on {0}.
      */
     public static final String CHECK_SUBLEASE_EXPIRY = CHECK + "200";
-        /**
+    /**
      * clichck201 - Subplot is not within the area of the lease.
      */
     public static final String CHECK_SUBLEASE_PLOT = CHECK + "201";
+    /**
+     * clichck202 - A document showing the lessee's consent is required for a mortgage on a sublease.
+     */
+    public static final String CHECK_SUBLEASE_MORTGAGE_CONSENT = CHECK + "202";
     
     
     // Application messages
