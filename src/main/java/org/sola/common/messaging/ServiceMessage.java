@@ -44,6 +44,7 @@ public class ServiceMessage {
     private static final String EJB_APPLICATION = MSG_PREFIX + "ejbapplication";
     private static final String EJB_SOURCE = MSG_PREFIX + "ejbsource";
     private static final String EJB_TRANSACTION = MSG_PREFIX + "ejbtransaction";
+    private static final String EJB_ADMINISTRATIVE = MSG_PREFIX + "ejbtadministrative";
     private static final String ADMIN_WS = MSG_PREFIX + "adminservice";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
@@ -132,4 +133,7 @@ public class ServiceMessage {
     // Admin Web-service
     /** seradminservice001 - Username "{0}" already exists. */
     public static final String ADMIN_WS_USER_EXISTS = ADMIN_WS + "001";
+    
+    /** ejbtadministrative001 - Lease can't be saved, because it has "{0}" state */
+    public static final String LEASE_MUST_HAVE_PENDING_STATE = EJB_ADMINISTRATIVE + "001";
 }
