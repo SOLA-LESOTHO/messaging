@@ -134,6 +134,6 @@ public class ServiceMessage {
     /** seradminservice001 - Username "{0}" already exists. */
     public static final String ADMIN_WS_USER_EXISTS = ADMIN_WS + "001";
     
-    /** ejbtadministrative001 - Lease can't be saved, because it has "{0}" state */
+    /** serejbtadministrative001 - Lease can't be saved, because it has "{0}" state */
     public static final String LEASE_MUST_HAVE_PENDING_STATE = EJB_ADMINISTRATIVE + "001";
 }
