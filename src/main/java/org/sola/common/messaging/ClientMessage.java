@@ -820,6 +820,19 @@ public class ClientMessage {
      * clidispute005 - Failed to save property.
      */
     public static final String DISPUTE_PARTY_SAVED = DISPUTE + "005";
+    /**
+     * clidispute006 - Choose if its dispute of court process.
+     */
+    public static final String DISPUTE_CHOOSE_RIGHT_FUNCTIONALITY = DISPUTE + "006";
+    /**
+     * clidispute007 - Choose if its dispute of court process.
+     */
+    
+    public static final String DISPUTE_CAPTURE_COURT_CASE_NUMBER = DISPUTE + "007";
+    /**
+     * clidispute008 - Save a dispute or court case first.
+     */ 
+    public static final String DISPUTE_SAVE_FIRST = DISPUTE + "008";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -1283,6 +1296,10 @@ public class ClientMessage {
      * cliprgs045 - Calculating ground rent...
      */
     public static final String PROGRESS_MSG_CALCULATING_GROUND_RENT = PROGRESSMSG + "045";
+    /**
+     * cliprgs046 - Opening dispute and court cases application form...
+     */
+    public static final String PROGRESS_MSG_OPEN_DISFORM = PROGRESSMSG + "046";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
