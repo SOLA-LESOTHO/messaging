@@ -53,6 +53,7 @@ public class ClientMessage {
     private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
     private static final String BULK_OPERATIONS = MSG_PREFIX + "_bulk_operations_";
     private static final String DISPUTE = MSG_PREFIX + "dispute";
+    private static final String LEASE = MSG_PREFIX + "lease";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
@@ -900,7 +901,12 @@ public class ClientMessage {
     /**
      * cliparty008 - Person has been created.
      */
-    public static final String PARTY_CREATED = PARTY + "003";
+    public static final String PARTY_CREATED = PARTY + "008";
+    /**
+     * cliparty009 - Person not found.
+     */
+    public static final String PARTY_NOT_FOUND = PARTY + "009";
+    
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
@@ -1265,6 +1271,18 @@ public class ClientMessage {
      * cliprgs042 - Opening blank application form...
      */
     public static final String PROGRESS_MSG_OPEN_APPFORM = PROGRESSMSG + "042";
+    /**
+     * cliprgs043 - Getting person...
+     */
+    public static final String PROGRESS_MSG_PERSON_GETTING = PROGRESSMSG + "043";
+    /**
+     * cliprgs044 - Opening lease preparation form...
+     */
+    public static final String PROGRESS_MSG_OPEN_LEASE_PREPARATION = PROGRESSMSG + "044";
+    /**
+     * cliprgs045 - Calculating ground rent...
+     */
+    public static final String PROGRESS_MSG_CALCULATING_GROUND_RENT = PROGRESSMSG + "045";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
@@ -1289,4 +1307,39 @@ public class ClientMessage {
      */
     public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND =
             BULK_OPERATIONS + "004";
+    
+    // Lease preparation messages
+    
+    /** clilease001 - Fill in lease number. */
+    public static final String LEASE_LEASE_NUMBER_IS_IMPTY = LEASE + "001";
+    
+    /** clilease002 - Fill in lessee address. */
+    public static final String LEASE_LESSEE_ADDRESS_IS_IMPTY = LEASE + "002";
+    
+    /** clilease003 - Fill in ground rent. */
+    public static final String LEASE_GROUND_RENT_IS_IMPTY = LEASE + "003";
+    
+    /** clilease004 - Fill in lease start date. */
+    public static final String LEASE_START_DATE_IS_IMPTY = LEASE + "004";
+    
+    /** clilease005 - Fill in lease expiration date. */
+    public static final String LEASE_EXPIRATION_DATE_IS_IMPTY = LEASE + "005";
+    
+    /** clilease006 - Add at lease one lessee. */
+    public static final String LEASE_LESSEE_LIST_IS_IMPTY = LEASE + "006";
+    
+    /** clilease007 - Lease number and plot number doesn't match. */
+    public static final String LEASE_NUMBER_AND_PARCEL_CODE_DOESNT_MATCH = LEASE + "007";
+    
+    /** clilease008 - Lease start date must be less than lease expiration date. */
+    public static final String LEASE_START_DATE_GRATER_THAN_EXPIRATION_DATE = LEASE + "008";
+    
+    /** clilease009 - Lessees must be the same type. */
+    public static final String LEASE_LESSEES_TYPE_DIFFERENT = LEASE + "009";
+    
+    /** clilease010 - Lease has been saved successfully. */
+    public static final String LEASE_SAVED_SUCCESSFULLY = LEASE + "010";
+    
+    /** clilease011 - Plot must be selected. */
+    public static final String LEASE_SELECT_PLOT = LEASE + "011";
 }
