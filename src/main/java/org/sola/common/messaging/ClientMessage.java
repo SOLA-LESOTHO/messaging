@@ -836,6 +836,18 @@ public class ClientMessage {
      * clidispute008 - Save a dispute or court case first.
      */ 
     public static final String DISPUTE_SAVE_FIRST = DISPUTE + "008";
+    /**
+     * clidispute009 - Close a dispute or court case first.
+     */ 
+    public static final String DISPUTE_CLOSED = DISPUTE + "009";
+    /**
+     * clidispute010 - Capture Dispute Category or Type First.
+     */ 
+    public static final String DISPUTE_CAPTURE_CATEGORY_OR_TYPE_FIRST = DISPUTE + "010";
+    /**
+     * clidispute011 - Capture Action Required.
+     */ 
+    public static final String DISPUTE_ACTION_REQUIRED = DISPUTE + "011";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
