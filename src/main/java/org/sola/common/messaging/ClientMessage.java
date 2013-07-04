@@ -309,7 +309,7 @@ public class ClientMessage {
      */
     public static final String CHECK_REGISTRATION_DATE = CHECK + "071";
     /**
-     * clichck072 - Enter at least one owner.
+     * clichck072 - Enter at least one lessee.
      */
     public static final String CHECK_SIZE_OWNERSLIST = CHECK + "072";
     /**
@@ -444,7 +444,10 @@ public class ClientMessage {
      * clichck202 - A document showing the lessee's consent is required for a mortgage on a sublease.
      */
     public static final String CHECK_SUBLEASE_MORTGAGE_CONSENT = CHECK + "202";
-    
+    /**
+     * clichck203 - Enter registration date.
+     */
+    public static final String CHECK_NOTNULL_REGDATE = CHECK + "203";
     
     // Application messages
     /**
@@ -1359,4 +1362,10 @@ public class ClientMessage {
     
     /** clilease011 - Plot must be selected. */
     public static final String LEASE_SELECT_PLOT = LEASE + "011";
+    
+    /** clilease012 - Lease execution date must be entered. */
+    public static final String LEASE_EXECUTION_DATE_IS_IMPTY = LEASE + "012";
+    
+    /** clilease013 - Lease execution date must be less or equivalent to the current date. */
+    public static final String LEASE_EXECUTION_DATE_IS_IN_FUTURE = LEASE + "013";
 }
