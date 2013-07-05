@@ -637,6 +637,10 @@ public class ClientMessage {
      * cliapp044 - Are you sure you want to unassign selected applications?
      */
     public static final String APPLICATION_CONFIRM_UNASSIGN = APPLICATION + "044";
+    /**
+     * cliapp045 - There are no property objects found on the list.
+     */
+    public static final String APPLICATION_PROPERTY_LIST_EMPTY = APPLICATION + "045";
     
     // Reports messages.
     /**
@@ -1380,4 +1384,7 @@ public class ClientMessage {
     
     /** clilease013 - Lease execution date must be less or equivalent to the current date. */
     public static final String LEASE_EXECUTION_DATE_IS_IN_FUTURE = LEASE + "013";
+    
+    /** clilease014 - Select land use. */
+    public static final String LEASE_LAND_USE_IS_NULL = LEASE + "014";
 }

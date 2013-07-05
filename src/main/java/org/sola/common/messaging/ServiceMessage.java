@@ -134,6 +134,9 @@ public class ServiceMessage {
     /** seradminservice001 - Username "{0}" already exists. */
     public static final String ADMIN_WS_USER_EXISTS = ADMIN_WS + "001";
     
-    /** serejbtadministrative001 - Lease can't be saved, because it has "{0}" state */
-    public static final String LEASE_MUST_HAVE_PENDING_STATE = EJB_ADMINISTRATIVE + "001";
+    /** serejbtadministrative001 - Only pending properties can be modified. */
+    public static final String BA_UNIT_MUST_HAVE_PENDING_STATE = EJB_ADMINISTRATIVE + "001";
+    
+    /** serejbtadministrative002 - Only pending rights can be modified. */
+    public static final String RRR_MUST_HAVE_PENDING_STATE = EJB_ADMINISTRATIVE + "002";
 }
