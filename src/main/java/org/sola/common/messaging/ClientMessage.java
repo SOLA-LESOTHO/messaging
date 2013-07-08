@@ -1390,11 +1390,17 @@ public class ClientMessage {
     public static final String LEASE_LAND_USE_IS_NULL = LEASE + "014";
     
     /** clilease015 - Fill in usable land value. */
-    public static final String LEASE_USABLE_IS_IMPTY = LEASE + "015";
+    public static final String LEASE_LAND_USABLE_IS_IMPTY = LEASE + "015";
     
     /** clilease016 - Fill in personal levy factor. */
     public static final String LEASE_PERSONAL_LEVY_IS_IMPTY = LEASE + "016";
 
+    /** clilease017 - Personal levy factor should be between 1 and 2 or 0 for exempted. */
+    public static final String LEASE_PERSONAL_LEVY_RANGE_ERROR = LEASE + "017";
+    
+    /** clilease018 - Usable land value should be between 1 and 100. */
+    public static final String LEASE_LAND_USABLE_ERROR = LEASE + "018";
+    
     // Consent application messages
     
     /** cliconsent001 - Provide recipients for the transaction to continue. */
@@ -1402,4 +1408,5 @@ public class ClientMessage {
     
     /** cliconsent003.message = Fill in expiration date. */
     public static final String CONSENT_PROVIDE_EXPIRATION = CONSENT + "003";
+    
 }
