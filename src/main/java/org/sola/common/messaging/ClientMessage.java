@@ -54,6 +54,7 @@ public class ClientMessage {
     private static final String BULK_OPERATIONS = MSG_PREFIX + "_bulk_operations_";
     private static final String DISPUTE = MSG_PREFIX + "dispute";
     private static final String LEASE = MSG_PREFIX + "lease";
+    private static final String CONSENT = MSG_PREFIX + "consent";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
@@ -1393,4 +1394,12 @@ public class ClientMessage {
     
     /** clilease016 - Fill in personal levy factor. */
     public static final String LEASE_PERSONAL_LEVY_IS_IMPTY = LEASE + "016";
+
+    // Consent application messages
+    
+    /** cliconsent001 - Provide recipients for the transaction to continue. */
+    public static final String CONSENT_PROVIDE_RECIPIENT = CONSENT + "001";
+    
+    /** cliconsent003.message = Fill in expiration date. */
+    public static final String CONSENT_PROVIDE_EXPIRATION = CONSENT + "003";
 }
