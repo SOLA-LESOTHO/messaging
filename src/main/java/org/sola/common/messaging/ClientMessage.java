@@ -1387,4 +1387,10 @@ public class ClientMessage {
     
     /** clilease014 - Select land use. */
     public static final String LEASE_LAND_USE_IS_NULL = LEASE + "014";
+    
+    /** clilease015 - Fill in usable land value. */
+    public static final String LEASE_USABLE_IS_IMPTY = LEASE + "015";
+    
+    /** clilease016 - Fill in personal levy factor. */
+    public static final String LEASE_PERSONAL_LEVY_IS_IMPTY = LEASE + "016";
 }
