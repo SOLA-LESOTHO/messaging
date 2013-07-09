@@ -269,6 +269,11 @@ public class ClientMessage {
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
     /**
+    * clichck204 - Gender cannot be null.
+    */
+    public static final String CHECK_NOTNULL_GENDER = CHECK + "204";   
+     
+    /**
      * clichck062 - Number of services should be greater than 0.
      */
     public static final String CHECK_APP_SERVICES_NOT_EMPTY = CHECK + "062";
