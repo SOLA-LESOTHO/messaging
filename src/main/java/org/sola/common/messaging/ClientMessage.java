@@ -811,6 +811,10 @@ public class ClientMessage {
      * clibaunit026 - Enter lease rejection reason
      */
     public static final String BAUNIT_LEASE_REJECTION_REASON_TITLE = BAUNIT + "026";
+    /**
+     * clibaunit027 - Property should be terminated and have historic status.
+     */
+    public static final String BAUNIT_MUST_HAVE_HISTORIC_STATUS = BAUNIT + "027";
     
      /**
      * clidispute001 - Dispute has been saved successfully.
