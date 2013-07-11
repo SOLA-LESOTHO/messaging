@@ -55,6 +55,7 @@ public class ClientMessage {
     private static final String DISPUTE = MSG_PREFIX + "dispute";
     private static final String LEASE = MSG_PREFIX + "lease";
     private static final String CONSENT = MSG_PREFIX + "consent";
+    private static final String MORTGAGE = MSG_PREFIX + "mortgage";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
@@ -1417,5 +1418,13 @@ public class ClientMessage {
     
     /** cliconsent003.message = Fill in expiration date. */
     public static final String CONSENT_PROVIDE_EXPIRATION = CONSENT + "003";
+    
+    //Mortgage related messages
+    
+    /** climortgage001.message - mortgage rank should be between 1 and 10 */
+    public static final String MORTGAGE_RANK_RANGE_ERROR = MORTGAGE + "001";
+    
+    /** climortgage002 - Fill in mortgage rank. */
+    public static final String MORTGAGE_RANK_IS_EMPTY = MORTGAGE + "002";
     
 }
