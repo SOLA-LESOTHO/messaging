@@ -1416,6 +1416,9 @@ public class ClientMessage {
     /** clilease018 - Usable land value should be between 1 and 100. */
     public static final String LEASE_LAND_USABLE_ERROR = LEASE + "018";
     
+    /** clilease019 - Add one and only one lessee with "Lease account holder" role (payor). */
+    public static final String LEASE_LESSEE_ACCOUNT_HOLDER_MISSING = LEASE + "019";
+    
     // Consent application messages
     
     /** cliconsent001 - Provide recipients for the transaction to continue. */
