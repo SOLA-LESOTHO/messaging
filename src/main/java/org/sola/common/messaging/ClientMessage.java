@@ -844,7 +844,31 @@ public class ClientMessage {
     /**
      * clidispute011 - Capture Action Required.
      */ 
-    public static final String DISPUTE_ACTION_REQUIRED = DISPUTE + "011";
+    public static final String DISPUTE_COURT_ACTION_REQUIRED = DISPUTE + "011";
+    /**
+     * clidispute012 - Capture Plot Location.
+     */ 
+    public static final String DISPUTE_LOCATION_REQUIRED = DISPUTE + "012";
+    /**
+     * clidispute013 - Capture Dispute Number.
+     */ 
+    public static final String DISPUTE_NUMBER = DISPUTE + "013";
+    /**
+     * clidispute014 - Capture Dispute Action.
+     */ 
+    public static final String DISPUTE_ACTION = DISPUTE + "014";
+    /**
+     * clidispute015 - Capture Referred Authorities .
+     */ 
+    public static final String DISPUTE_REFERRED_AUTHORITY = DISPUTE + "015";
+    /**
+     * clidispute016 - Capture Comments .
+     */ 
+    public static final String DISPUTE_COMMENTS = DISPUTE + "016";
+    /**
+     * clidispute017 - Capture Dispute Description .
+     */ 
+    public static final String DISPUTE_DESCRIPTION = DISPUTE + "017";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
