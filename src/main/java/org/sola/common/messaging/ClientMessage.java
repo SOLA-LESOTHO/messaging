@@ -821,6 +821,14 @@ public class ClientMessage {
      * clibaunit027 - Property should be terminated and have historic status.
      */
     public static final String BAUNIT_MUST_HAVE_HISTORIC_STATUS = BAUNIT + "027";
+    /**
+     * clibaunit028 - Plot is already registered on the existing lease.
+     */
+    public static final String BAUNIT_PARCEL_HAS_LEASE = BAUNIT + "028";
+    /**
+     * clibaunit029 - Plot should not be historic.
+     */
+    public static final String BAUNIT_PARCEL_HAS_HISTORIC_STATUS = BAUNIT + "029";
     
      /**
      * clidispute001 - Dispute has been saved successfully.
