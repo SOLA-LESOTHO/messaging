@@ -1394,7 +1394,7 @@ public class ClientMessage {
     
     /** clilease011 - Plot must be selected. */
     public static final String LEASE_SELECT_PLOT = LEASE + "011";
-    
+       
     /** clilease012 - Lease execution date must be entered. */
     public static final String LEASE_EXECUTION_DATE_IS_IMPTY = LEASE + "012";
     
@@ -1418,6 +1418,9 @@ public class ClientMessage {
     
     /** clilease019 - Add one and only one lessee with "Lease account holder" role (payor). */
     public static final String LEASE_LESSEE_ACCOUNT_HOLDER_MISSING = LEASE + "019";
+    
+    /** clilease020 - land use must be selected. */
+    public static final String LEASE_SELECT_LAND_USE = LEASE + "020";
     
     // Consent application messages
     
