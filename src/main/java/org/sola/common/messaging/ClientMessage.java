@@ -829,7 +829,7 @@ public class ClientMessage {
      * clibaunit029 - Plot should not be historic.
      */
     public static final String BAUNIT_PARCEL_HAS_HISTORIC_STATUS = BAUNIT + "029";
-    
+   
      /**
      * clidispute001 - Dispute has been saved successfully.
      */
@@ -921,6 +921,12 @@ public class ClientMessage {
      * clierrs005 - {0} Web-service is not initialized.
      */
     public static final String GENERAL_ERRORS_WEBSERVICE_NOT_INITIALIZED = GENERAL_ERRORS + "005";
+    /**
+     * clierrs006 - Date (From) must be less or equal to the date (To)
+     */
+    public static final String GENERAL_ERRORS_DATE_FROM_GRATER_DATE_TO = GENERAL_ERRORS + "006";
+    
+    
     // General confirms
     /**
      * cliconfirm001 - Are you sure you want to delete record? All data will be
