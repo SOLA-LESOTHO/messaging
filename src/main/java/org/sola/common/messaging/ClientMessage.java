@@ -270,16 +270,7 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
-    
-    /**
-    * clichck204 - Gender cannot be null.
-    */
-    public static final String CHECK_NOTNULL_GENDER = CHECK + "204";   
-    /**
-    * clichck204 - Gender cannot be null.
-    */
-    public static final String CHECK_NOTNULL_LEGAL_STATUS = CHECK + "205";   
-     
+ 
     /**
      * clichck062 - Number of services should be greater than 0.
      */
@@ -460,6 +451,22 @@ public class ClientMessage {
      * clichck203 - Enter registration date.
      */
     public static final String CHECK_NOTNULL_REGDATE = CHECK + "203";
+    /**
+    * clichck204 - Gender cannot be null.
+    */
+    public static final String CHECK_NOTNULL_GENDER = CHECK + "204";   
+    /**
+    * clichck205 - Legal status cannot be null.
+    */
+    public static final String CHECK_NOTNULL_LEGAL_STATUS = CHECK + "205";
+    /**
+     * clichck206 - Select land grade (zone)
+     */
+    public static final String CHECK_LAND_GRADE_NOT_NULL = CHECK + "206";
+    /**
+     * clichck207 - Select road access
+     */
+    public static final String CHECK_ROAD_ACCESS_NOT_NULL = CHECK + "207";
     
     // Application messages
     /**
