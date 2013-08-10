@@ -906,6 +906,10 @@ public class ClientMessage {
      * clidispute017 - Capture Dispute Description .
      */ 
     public static final String DISPUTE_DESCRIPTION = DISPUTE + "017";
+    /**
+     * clidispute018 - Capture Dispute Party.
+     */ 
+    public static final String DISPUTE_PARTY_REQUIRED = DISPUTE + "018";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
