@@ -99,7 +99,10 @@ public class ServiceMessage {
     public static final String EXCEPTION_INVALID_SECURITY_HEADER = EXCEPTION + "009";
     /* serexcp010 - The file cannot be attached due to its size ({0}MB) */
     public static final String EXCEPTION_FILE_TOO_BIG = EXCEPTION + "010";
-
+    /* serexcp011 - The property cannot be saved until the plot is selected or the lease number is entered. */
+    public static final String EXCEPTION_BAUNIT_REQUIRES_NAME = EXCEPTION + "011";
+    /* serexcp012 - The lease number already exists. */
+    public static final String EXCEPTION_BAUNIT_HAS_DUPLICATE_NAME = EXCEPTION + "012";
     
     // Business Rule Messages
     /** serrule001 - Business rule {0} does not exist.*/
