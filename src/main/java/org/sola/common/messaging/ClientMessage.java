@@ -659,6 +659,10 @@ public class ClientMessage {
      * cliapp045 - There are no property objects found on the list.
      */
     public static final String APPLICATION_PROPERTY_LIST_EMPTY = APPLICATION + "045";
+    /**
+     * cliapp046 - Failed to create new application.
+     */
+    public static final String APPLICATION_FAILED_TO_CREATE_NEW = APPLICATION + "046";
     
     // Reports messages.
     /**
@@ -1383,6 +1387,14 @@ public class ClientMessage {
      * cliprgs046 - Opening dispute and court cases application form...
      */
     public static final String PROGRESS_MSG_OPEN_DISFORM = PROGRESSMSG + "046";
+    /**
+     * cliprgs047 - Creating new application...
+     */
+    public static final String PROGRESS_MSG_APP_CREATE_NEW = PROGRESSMSG + "047";
+    /**
+     * cliprgs048 - Refreshing dashboard...
+     */
+    public static final String PROGRESS_MSG_DASHBOARD_REFRESH = PROGRESSMSG + "048";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
