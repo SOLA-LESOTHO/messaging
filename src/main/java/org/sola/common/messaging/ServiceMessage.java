@@ -103,6 +103,8 @@ public class ServiceMessage {
     public static final String EXCEPTION_BAUNIT_REQUIRES_NAME = EXCEPTION + "011";
     /* serexcp012 - The lease number already exists. */
     public static final String EXCEPTION_BAUNIT_HAS_DUPLICATE_NAME = EXCEPTION + "012";
+    /* serexcp013 - SOLA is unable to connect to the Network Scan Folder. */
+    public static final String EXCEPTION_NETWORK_SCAN_FOLDER = EXCEPTION + "013";
     
     // Business Rule Messages
     /** serrule001 - Business rule {0} does not exist.*/
