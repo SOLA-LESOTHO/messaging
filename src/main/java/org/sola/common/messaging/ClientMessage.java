@@ -914,6 +914,10 @@ public class ClientMessage {
      * clidispute018 - Capture Dispute Party.
      */ 
     public static final String DISPUTE_PARTY_REQUIRED = DISPUTE + "018";
+    /**
+     * cliapp019 - You are about to complete a Dispute. Are you sure?
+     */
+    public static final String DISPUTE_COMPLETE_WARNING = DISPUTE + "019";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
