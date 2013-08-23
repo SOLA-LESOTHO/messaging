@@ -918,6 +918,10 @@ public class ClientMessage {
      * cliapp019 - You are about to complete a Dispute. Are you sure?
      */
     public static final String DISPUTE_COMPLETE_WARNING = DISPUTE + "019";
+    /**
+     * clidispute020 - Make a Search of what you want to print.
+     */ 
+    public static final String DISPUTE_MAKE_SEARCH_FIRST = DISPUTE + "020";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
