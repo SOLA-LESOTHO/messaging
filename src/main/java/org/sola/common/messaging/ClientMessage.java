@@ -1063,6 +1063,11 @@ public class ClientMessage {
      *
      */
     public static final String SOURCE_SYS_REP_GENERATED = SOURCE + "011";
+    /**
+     * clisource012 - Documents have been added.
+     */
+    public static final String SOURCE_ADDED_ALL = SOURCE + "012";
+    
     // Validation messages 
     /**
      * clivldtn001 - You have duplicated objects in the list
