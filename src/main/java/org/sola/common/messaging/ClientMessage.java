@@ -160,6 +160,10 @@ public class ClientMessage {
      * clignrl025 - Unassign
      */
     public static final String GENERAL_LABELS_UNASSIGN = GENERAL + "025";
+    /**
+     * clignrl026 - Rejection reason
+     */
+    public static final String GENERAL_LABELS_REJECTION_REASON = GENERAL + "026";
     
     // Service Messages
     /**
@@ -1408,6 +1412,14 @@ public class ClientMessage {
      * cliprgs048 - Refreshing dashboard...
      */
     public static final String PROGRESS_MSG_DASHBOARD_REFRESH = PROGRESSMSG + "048";
+    /**
+     * cliprgs049 - Getting consent data...
+     */
+    public static final String PROGRESS_MSG_CONSENT_GETTING = PROGRESSMSG + "049";
+    /**
+     * cliprgs050 - Opening consent form...
+     */
+    public static final String PROGRESS_MSG_CONSENT_OPENING = PROGRESSMSG + "050";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
@@ -1500,8 +1512,17 @@ public class ClientMessage {
     /** cliconsent001 - Provide recipients for the transaction to continue. */
     public static final String CONSENT_PROVIDE_RECIPIENT = CONSENT + "001";
     
-    /** cliconsent003.message = Fill in expiration date. */
+    /** cliconsent002 - Fill in registration date. */
+    public static final String CONSENT_PROVIDE_REGDATE = CONSENT + "002";
+    
+    /** cliconsent003 - Fill in expiration date. */
     public static final String CONSENT_PROVIDE_EXPIRATION = CONSENT + "003";
+    
+    /** cliconsent004 - Consent data has been saved successfully. */
+    public static final String CONSENT_SAVED = CONSENT + "004";
+    
+    /** cliconsent005 - Select transaction type. */
+    public static final String CONSENT_SELECT_TRANSACTION_TYPE = CONSENT + "005";
     
     //Mortgage related messages
     
