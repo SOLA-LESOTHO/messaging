@@ -1230,6 +1230,11 @@ public class ClientMessage {
      */
     public static final String ADMIN_DEPARTMENT_SAVED = ADMIN + "024";
     /**
+     * cliadmin001 - Are you sure you want to delete group? All users included
+     * in the group will lose access rights, assigned to this group.
+     */
+    public static final String ADMIN_CONFIRM_DELETE_DEPARTMENT = ADMIN + "025";
+    /**
      * cliprgs001 - Opening application form...
      */
     public static final String PROGRESS_MSG_OPEN_APP = PROGRESSMSG + "001";
