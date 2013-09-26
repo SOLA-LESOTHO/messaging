@@ -1226,6 +1226,10 @@ public class ClientMessage {
     public static final String ADMIN_REFDATA_SAVED = ADMIN + "023";
     // Progress bar messages
     /**
+     * cliadmin002 - Group has been saved successfully.
+     */
+    public static final String ADMIN_DEPARTMENT_SAVED = ADMIN + "024";
+    /**
      * cliprgs001 - Opening application form...
      */
     public static final String PROGRESS_MSG_OPEN_APP = PROGRESSMSG + "001";
