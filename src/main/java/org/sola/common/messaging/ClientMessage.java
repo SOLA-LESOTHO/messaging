@@ -1431,6 +1431,10 @@ public class ClientMessage {
      * cliprgs050 - Opening consent form...
      */
     public static final String PROGRESS_MSG_CONSENT_OPENING = PROGRESSMSG + "050";
+    /**
+     * cliprgs051 - Generating report...
+     */
+    public static final String PROGRESS_MSG_GENERATING_REPORT = PROGRESSMSG + "051";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
