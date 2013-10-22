@@ -1,29 +1,31 @@
 /**
  * ******************************************************************************************
- * Copyright (c) 2013 Food and Agriculture Organization of the United Nations (FAO)
- * and the Lesotho Land Administration Authority (LAA). All rights reserved.
+ * Copyright (c) 2013 Food and Agriculture Organization of the United Nations
+ * (FAO) and the Lesotho Land Administration Authority (LAA). All rights
+ * reserved.
  *
- * Redistribution and use in source and binary forms, with or without modification,
- * are permitted provided that the following conditions are met:
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
  *
- *    1. Redistributions of source code must retain the above copyright notice,this list
- *       of conditions and the following disclaimer.
- *    2. Redistributions in binary form must reproduce the above copyright notice,this list
- *       of conditions and the following disclaimer in the documentation and/or other
- *       materials provided with the distribution.
- *    3. Neither the names of FAO, the LAA nor the names of its contributors may be used to
- *       endorse or promote products derived from this software without specific prior
- * 	  written permission.
+ * 1. Redistributions of source code must retain the above copyright notice,this
+ * list of conditions and the following disclaimer. 2. Redistributions in binary
+ * form must reproduce the above copyright notice,this list of conditions and
+ * the following disclaimer in the documentation and/or other materials provided
+ * with the distribution. 3. Neither the names of FAO, the LAA nor the names of
+ * its contributors may be used to endorse or promote products derived from this
+ * software without specific prior written permission.
  *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
- * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
- * SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT
- * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
- * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,STRICT LIABILITY,OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
- * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT,STRICT LIABILITY,OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
  * *********************************************************************************************
  */
 package org.sola.common.messaging;
@@ -55,7 +57,6 @@ public class ClientMessage {
     private static final String LEASE = MSG_PREFIX + "lease";
     private static final String CONSENT = MSG_PREFIX + "consent";
     private static final String MORTGAGE = MSG_PREFIX + "mortgage";
-    
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * clitest001 - Unit Test Message
@@ -63,7 +64,6 @@ public class ClientMessage {
     public static final String TEST001 = TEST + "001";
     // </editor-fold>
     // General Messages
-            
     /**
      * clignrl001 - An unexpected error has occurred. Error details: {0}
      */
@@ -164,7 +164,6 @@ public class ClientMessage {
      * clignrl026 - Rejection reason
      */
     public static final String GENERAL_LABELS_REJECTION_REASON = GENERAL + "026";
-    
     // Service Messages
     /**
      * cliserv001 - Unable to initialize the {0} service. The reason is: {1}
@@ -185,8 +184,8 @@ public class ClientMessage {
     public static final String SEARCH_SELECT_APPLICATION = SEARCH + "003";
     // Check / Validation Messages
     /**
-     * clichck001 - Application {0} cannot be assigned or unassigned
-     * until its fees are paid.
+     * clichck001 - Application {0} cannot be assigned or unassigned until its
+     * fees are paid.
      */
     public static final String CHECK_FEES_NOT_PAID = CHECK + "001";
     /**
@@ -275,7 +274,6 @@ public class ClientMessage {
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
     public static final String CHECK_NOTNULL_DEPARTMENTNAME = CHECK + "208";
     public static final String CHECK_MIN_DEPARTMENTUSERS = CHECK + "209";
- 
     /**
      * clichck062 - Number of services should be greater than 0.
      */
@@ -449,7 +447,8 @@ public class ClientMessage {
      */
     public static final String CHECK_SUBLEASE_PLOT = CHECK + "201";
     /**
-     * clichck202 - A document showing the lessee's consent is required for a mortgage on a sublease.
+     * clichck202 - A document showing the lessee's consent is required for a
+     * mortgage on a sublease.
      */
     public static final String CHECK_SUBLEASE_MORTGAGE_CONSENT = CHECK + "202";
     /**
@@ -457,12 +456,12 @@ public class ClientMessage {
      */
     public static final String CHECK_NOTNULL_REGDATE = CHECK + "203";
     /**
-    * clichck204 - Gender cannot be null.
-    */
-    public static final String CHECK_NOTNULL_GENDER = CHECK + "204";   
+     * clichck204 - Gender cannot be null.
+     */
+    public static final String CHECK_NOTNULL_GENDER = CHECK + "204";
     /**
-    * clichck205 - Legal status cannot be null.
-    */
+     * clichck205 - Legal status cannot be null.
+     */
     public static final String CHECK_NOTNULL_LEGAL_STATUS = CHECK + "205";
     /**
      * clichck206 - Select land grade (zone)
@@ -472,7 +471,6 @@ public class ClientMessage {
      * clichck207 - Select road access
      */
     public static final String CHECK_ROAD_ACCESS_NOT_NULL = CHECK + "207";
-    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -669,7 +667,6 @@ public class ClientMessage {
      * cliapp046 - Failed to create new application.
      */
     public static final String APPLICATION_FAILED_TO_CREATE_NEW = APPLICATION + "046";
-    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -818,7 +815,8 @@ public class ClientMessage {
      */
     public static final String BAUNIT_CUSTOM_LEASE_CONDITION_EMTY = BAUNIT + "022";
     /**
-     * clibaunit023 - {0} has no registration number. It will be assigned automatically after saving property object.
+     * clibaunit023 - {0} has no registration number. It will be assigned
+     * automatically after saving property object.
      */
     public static final String BAUNIT_RRR_NO_REGISTRATION_NUMBER = BAUNIT + "023";
     /**
@@ -826,7 +824,8 @@ public class ClientMessage {
      */
     public static final String BAUNIT_HAS_NO_PARCELS = BAUNIT + "024";
     /**
-     * clibaunit025 - The following warnings were found, which may affect report generation. Do you want to proceed?
+     * clibaunit025 - The following warnings were found, which may affect report
+     * generation. Do you want to proceed?
      */
     public static final String BAUNIT_RRR_REPORT_WARNINGS = BAUNIT + "025";
     /**
@@ -845,8 +844,7 @@ public class ClientMessage {
      * clibaunit029 - Plot should not be historic.
      */
     public static final String BAUNIT_PARCEL_HAS_HISTORIC_STATUS = BAUNIT + "029";
-   
-     /**
+    /**
      * clidispute001 - Dispute has been saved successfully.
      */
     public static final String DISPUTE_SAVED = DISPUTE + "001";
@@ -862,7 +860,6 @@ public class ClientMessage {
      * clidispute004 - Failed to save property.
      */
     public static final String DISPUTE_COMMENTS_SAVE_FAILED = DISPUTE + "004";
-    
     /**
      * clidispute005 - Failed to save property.
      */
@@ -874,51 +871,50 @@ public class ClientMessage {
     /**
      * clidispute007 - Choose if its dispute of court process.
      */
-    
     public static final String DISPUTE_CAPTURE_COURT_CASE_NUMBER = DISPUTE + "007";
     /**
      * clidispute008 - Save a dispute or court case first.
-     */ 
+     */
     public static final String DISPUTE_SAVE_FIRST = DISPUTE + "008";
     /**
      * clidispute009 - Close a dispute or court case first.
-     */ 
+     */
     public static final String DISPUTE_CLOSED = DISPUTE + "009";
     /**
      * clidispute010 - Capture Dispute Category or Type First.
-     */ 
+     */
     public static final String DISPUTE_CAPTURE_CATEGORY_OR_TYPE_FIRST = DISPUTE + "010";
     /**
      * clidispute011 - Capture Action Required.
-     */ 
+     */
     public static final String DISPUTE_COURT_ACTION_REQUIRED = DISPUTE + "011";
     /**
      * clidispute012 - Capture Plot Location.
-     */ 
+     */
     public static final String DISPUTE_LOCATION_REQUIRED = DISPUTE + "012";
     /**
      * clidispute013 - Capture Dispute Number.
-     */ 
+     */
     public static final String DISPUTE_NUMBER = DISPUTE + "013";
     /**
      * clidispute014 - Capture Dispute Action.
-     */ 
+     */
     public static final String DISPUTE_ACTION = DISPUTE + "014";
     /**
      * clidispute015 - Capture Referred Authorities .
-     */ 
+     */
     public static final String DISPUTE_REFERRED_AUTHORITY = DISPUTE + "015";
     /**
      * clidispute016 - Capture Comments .
-     */ 
+     */
     public static final String DISPUTE_COMMENTS = DISPUTE + "016";
     /**
      * clidispute017 - Capture Dispute Description .
-     */ 
+     */
     public static final String DISPUTE_DESCRIPTION = DISPUTE + "017";
     /**
      * clidispute018 - Capture Dispute Party.
-     */ 
+     */
     public static final String DISPUTE_PARTY_REQUIRED = DISPUTE + "018";
     /**
      * cliapp019 - You are about to complete a Dispute. Are you sure?
@@ -926,7 +922,7 @@ public class ClientMessage {
     public static final String DISPUTE_COMPLETE_WARNING = DISPUTE + "019";
     /**
      * clidispute020 - Make a Search of what you want to print.
-     */ 
+     */
     public static final String DISPUTE_MAKE_SEARCH_FIRST = DISPUTE + "020";
     // General error messages
     /**
@@ -953,8 +949,6 @@ public class ClientMessage {
      * clierrs006 - Date (From) must be less or equal to the date (To)
      */
     public static final String GENERAL_ERRORS_DATE_FROM_GRATER_DATE_TO = GENERAL_ERRORS + "006";
-    
-    
     // General confirms
     /**
      * cliconfirm001 - Are you sure you want to delete record? All data will be
@@ -966,18 +960,16 @@ public class ClientMessage {
      * closed. Do you want to proceed?
      */
     public static final String CONFIRM_SYSTEM_WILL_BE_CLOSED = GENERAL_CONFIRM + "002";
-    
-    
     /**
      * cliconfirm003 - You are about changing used language. The window will be
-     * closed and opened again and you will lose all unsaved data. Do you want to proceed?
+     * closed and opened again and you will lose all unsaved data. Do you want
+     * to proceed?
      */
     public static final String CONFIRM_CHANGE_LANGUAGE = GENERAL_CONFIRM + "003";
     /**
      * cliconfirm004 - Are you sure you want to remove record?
      */
     public static final String CONFIRM_REMOVE_RECORD = GENERAL_CONFIRM + "004";
-    
     // Help messages
     /**
      * clihelp001 - HelpSet - Exception:{0} Path: {1} not found
@@ -1020,7 +1012,6 @@ public class ClientMessage {
      * cliparty009 - Person not found.
      */
     public static final String PARTY_NOT_FOUND = PARTY + "009";
-    
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
@@ -1073,7 +1064,6 @@ public class ClientMessage {
      * clisource012 - Documents have been added.
      */
     public static final String SOURCE_ADDED_ALL = SOURCE + "012";
-    
     // Validation messages 
     /**
      * clivldtn001 - You have duplicated objects in the list
@@ -1394,7 +1384,6 @@ public class ClientMessage {
      * cliprgs041 - Searching parcels...
      */
     public static final String PROGRESS_MSG_SEARCH_PARCELS = PROGRESSMSG + "041";
-    
     /**
      * cliprgs042 - Opening blank application form...
      */
@@ -1435,7 +1424,6 @@ public class ClientMessage {
      * cliprgs051 - Generating report...
      */
     public static final String PROGRESS_MSG_GENERATING_REPORT = PROGRESSMSG + "051";
-    
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
@@ -1459,92 +1447,123 @@ public class ClientMessage {
      */
     public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND =
             BULK_OPERATIONS + "004";
-    
     // Lease preparation messages
-    
-    /** clilease001 - Fill in lease number. */
+    /**
+     * clilease001 - Fill in lease number.
+     */
     public static final String LEASE_LEASE_NUMBER_IS_IMPTY = LEASE + "001";
-    
-    /** clilease002 - Fill in lessee address. */
+    /**
+     * clilease002 - Fill in lessee address.
+     */
     public static final String LEASE_LESSEE_ADDRESS_IS_IMPTY = LEASE + "002";
-    
-    /** clilease003 - Fill in ground rent. */
+    /**
+     * clilease003 - Fill in ground rent.
+     */
     public static final String LEASE_GROUND_RENT_IS_IMPTY = LEASE + "003";
-    
-    /** clilease004 - Fill in lease start date. */
+    /**
+     * clilease004 - Fill in lease start date.
+     */
     public static final String LEASE_START_DATE_IS_IMPTY = LEASE + "004";
-    
-    /** clilease005 - Fill in lease expiration date. */
+    /**
+     * clilease005 - Fill in lease expiration date.
+     */
     public static final String LEASE_EXPIRATION_DATE_IS_IMPTY = LEASE + "005";
-    
-    /** clilease006 - Add at lease one lessee. */
+    /**
+     * clilease006 - Add at lease one lessee.
+     */
     public static final String LEASE_LESSEE_LIST_IS_IMPTY = LEASE + "006";
-    
-    /** clilease007 - Lease number and plot number doesn't match. */
+    /**
+     * clilease007 - Lease number and plot number doesn't match.
+     */
     public static final String LEASE_NUMBER_AND_PARCEL_CODE_DOESNT_MATCH = LEASE + "007";
-    
-    /** clilease008 - Lease start date must be less than lease expiration date. */
+    /**
+     * clilease008 - Lease start date must be less than lease expiration date.
+     */
     public static final String LEASE_START_DATE_GRATER_THAN_EXPIRATION_DATE = LEASE + "008";
-    
-    /** clilease009 - Lessees must be the same type. */
+    /**
+     * clilease009 - Lessees must be the same type.
+     */
     public static final String LEASE_LESSEES_TYPE_DIFFERENT = LEASE + "009";
-    
-    /** clilease010 - Lease has been saved successfully. */
+    /**
+     * clilease010 - Lease has been saved successfully.
+     */
     public static final String LEASE_SAVED_SUCCESSFULLY = LEASE + "010";
-    
-    /** clilease011 - Plot must be selected. */
+    /**
+     * clilease011 - Plot must be selected.
+     */
     public static final String LEASE_SELECT_PLOT = LEASE + "011";
-       
-    /** clilease012 - Lease execution date must be entered. */
+    /**
+     * clilease012 - Lease execution date must be entered.
+     */
     public static final String LEASE_EXECUTION_DATE_IS_IMPTY = LEASE + "012";
-    
-    /** clilease013 - Lease execution date must be less or equivalent to the current date. */
+    /**
+     * clilease013 - Lease execution date must be less or equivalent to the
+     * current date.
+     */
     public static final String LEASE_EXECUTION_DATE_IS_IN_FUTURE = LEASE + "013";
-    
-    /** clilease014 - Select land use. */
+    /**
+     * clilease014 - Select land use.
+     */
     public static final String LEASE_LAND_USE_IS_NULL = LEASE + "014";
-    
-    /** clilease015 - Fill in usable land value. */
+    /**
+     * clilease015 - Fill in usable land value.
+     */
     public static final String LEASE_LAND_USABLE_IS_IMPTY = LEASE + "015";
-    
-    /** clilease016 - Fill in personal levy factor. */
+    /**
+     * clilease016 - Fill in personal levy factor.
+     */
     public static final String LEASE_PERSONAL_LEVY_IS_IMPTY = LEASE + "016";
-
-    /** clilease017 - Personal levy factor should be between 1 and 2 or 0 for exempted. */
+    /**
+     * clilease017 - Personal levy factor should be between 1 and 2 or 0 for
+     * exempted.
+     */
     public static final String LEASE_PERSONAL_LEVY_RANGE_ERROR = LEASE + "017";
-    
-    /** clilease018 - Usable land value should be between 1 and 100. */
+    /**
+     * clilease018 - Usable land value should be between 1 and 100.
+     */
     public static final String LEASE_LAND_USABLE_ERROR = LEASE + "018";
-    
-    /** clilease019 - Add one and only one lessee with "Lease account holder" role (payor). */
+    /**
+     * clilease019 - Add one and only one lessee with "Lease account holder"
+     * role (payor).
+     */
     public static final String LEASE_LESSEE_ACCOUNT_HOLDER_MISSING = LEASE + "019";
-    
-    /** clilease020 - land use must be selected. */
+    /**
+     * clilease020 - land use must be selected.
+     */
     public static final String LEASE_SELECT_LAND_USE = LEASE + "020";
-    
     // Consent application messages
-    
-    /** cliconsent001 - Provide recipients for the transaction to continue. */
+    /**
+     * cliconsent001 - Provide recipients for the transaction to continue.
+     */
     public static final String CONSENT_PROVIDE_RECIPIENT = CONSENT + "001";
-    
-    /** cliconsent002 - Fill in registration date. */
+    /**
+     * cliconsent002 - Fill in registration date.
+     */
     public static final String CONSENT_PROVIDE_REGDATE = CONSENT + "002";
-    
-    /** cliconsent003 - Fill in expiration date. */
+    /**
+     * cliconsent003 - Fill in expiration date.
+     */
     public static final String CONSENT_PROVIDE_EXPIRATION = CONSENT + "003";
-    
-    /** cliconsent004 - Consent data has been saved successfully. */
+    /**
+     * cliconsent004 - Consent data has been saved successfully.
+     */
     public static final String CONSENT_SAVED = CONSENT + "004";
-    
-    /** cliconsent005 - Select transaction type. */
+    /**
+     * cliconsent005 - Select transaction type.
+     */
     public static final String CONSENT_SELECT_TRANSACTION_TYPE = CONSENT + "005";
-    
     //Mortgage related messages
-    
-    /** climortgage001.message - mortgage rank should be between 1 and 10 */
+    /**
+     * climortgage001.message - mortgage rank should be between 1 and 10
+     */
     public static final String MORTGAGE_RANK_RANGE_ERROR = MORTGAGE + "001";
-    
-    /** climortgage002 - Fill in mortgage rank. */
+    /**
+     * climortgage002 - Fill in mortgage rank.
+     */
     public static final String MORTGAGE_RANK_IS_EMPTY = MORTGAGE + "002";
-    
+    /**
+     * clislr001 - All pending leases transfered from the SLR database will be
+     * made current. Do you want to continue?.
+     */
+    public static final String SLR_MIGRATION_WARNING = "clislr001";
 }
