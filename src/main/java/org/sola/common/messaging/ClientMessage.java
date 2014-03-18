@@ -471,6 +471,10 @@ public class ClientMessage {
      * clichck207 - Select road access
      */
     public static final String CHECK_ROAD_ACCESS_NOT_NULL = CHECK + "207";
+    /**
+     * clichck210 - The selected user cannot be assigned the application
+     */
+    public static final String CHECK_USER_HAS_PROCESS_ROLE = CHECK + "210";    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
