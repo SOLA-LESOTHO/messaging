@@ -1229,6 +1229,10 @@ public class ClientMessage {
      */
     public static final String ADMIN_CONFIRM_DELETE_DEPARTMENT = ADMIN + "025";
     /**
+     * cliadmin026 - No application stages were found
+     */
+    public static final String ADMIN_APPLICATION_STAGE_NOT_FOUND = ADMIN + "026";
+    /**
      * cliprgs001 - Opening application form...
      */
     public static final String PROGRESS_MSG_OPEN_APP = PROGRESSMSG + "001";
